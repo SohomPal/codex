@@ -6,10 +6,6 @@ import Groq from "groq-sdk";
 
 dotenv.config();
 
-// const openai = new OpenAI({
-//     apiKey: "sk-proj-vibIOUraRgr0PalliPTTT3BlbkFJ2EUeej4EfAxM8ucVnfE4",
-//   });
-
 const groq = new Groq({
     apiKey: process.env.GROQ_API_KEY
 });
