@@ -1,7 +1,6 @@
 import  express from "express";
 import * as dotenv from "dotenv";
 import cors from "cors";
-//import OpenAI from "openai";
 import Groq from "groq-sdk";
 
 dotenv.config();
